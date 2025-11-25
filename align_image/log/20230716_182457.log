@@ -1,0 +1,5 @@
+2023-07-16 18:25:02,102 - logger_ser - ERROR - app.ocr_type_document():89 - 'bytes' object has no attribute 'seek'
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 79, in ocr_type_document
+    _img_file.seek(0)
+AttributeError: 'bytes' object has no attribute 'seek'

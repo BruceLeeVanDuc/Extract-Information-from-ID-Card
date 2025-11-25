@@ -1,0 +1,1 @@
+2023-07-16 18:18:52,482 - server.logger_ser - ERROR - onnx_model.onnx_detect():72 - '_io.BytesIO' object has no attribute 'save'

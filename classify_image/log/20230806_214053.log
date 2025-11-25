@@ -1,0 +1,6 @@
+2023-08-06 21:41:14,941 - server.logger_ser - ERROR - app.general_document_classification():82 - Id not found!
+2023-08-06 21:41:14,942 - server.logger_ser - ERROR - app.general_document_classification():104 - 
+Traceback (most recent call last):
+  File "/home/namhai18/study/ExtractID-from-namecard/classify_image/server/app.py", line 83, in general_document_classification
+    raise Exception
+Exception

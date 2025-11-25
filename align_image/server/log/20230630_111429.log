@@ -1,0 +1,1 @@
+2023-06-30 11:14:35,635 - server.logger_ser - ERROR - onnx_model.onnx_detect():64 - 'numpy.ndarray' object has no attribute 'save'

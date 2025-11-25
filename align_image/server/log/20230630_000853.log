@@ -1,0 +1,116 @@
+2023-06-30 00:09:00,363 - logger_ser - ERROR - app.ocr_type_document():77 - Id not found!
+2023-06-30 00:09:00,363 - logger_ser - ERROR - app.ocr_type_document():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 78, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:09:54,547 - logger_ser - ERROR - app.ocr_type_document():77 - Id not found!
+2023-06-30 00:09:54,547 - logger_ser - ERROR - app.ocr_type_document():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 78, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:11:55,397 - logger_ser - ERROR - app.ocr_type_document():87 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 79, in ocr_type_document
+    _img_file = request.files["image"]
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/werkzeug/datastructures.py", line 375, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-06-30 00:12:11,022 - logger_ser - ERROR - app.ocr_type_document():87 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 79, in ocr_type_document
+    _img_file = request.files["image"]
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/werkzeug/datastructures.py", line 375, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-06-30 00:12:51,910 - logger_ser - ERROR - app.ocr_type_document():87 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 79, in ocr_type_document
+    _img_file = request.files["image"]
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/werkzeug/datastructures.py", line 375, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-06-30 00:13:16,462 - logger_ser - ERROR - app.ocr_type_document():87 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 79, in ocr_type_document
+    _img_file = request.files["image"]
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/werkzeug/datastructures.py", line 375, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-06-30 00:13:30,178 - logger_ser - ERROR - app.ocr_type_document():87 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 79, in ocr_type_document
+    _img_file = request.files["image"]
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/werkzeug/datastructures.py", line 375, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-06-30 00:14:05,293 - logger_ser - ERROR - app.ocr_type_document():87 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 79, in ocr_type_document
+    _img_file = request.files["image"]
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/werkzeug/datastructures.py", line 375, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-06-30 00:14:11,453 - logger_ser - ERROR - app.ocr_type_document():77 - Id not found!
+2023-06-30 00:14:11,454 - logger_ser - ERROR - app.ocr_type_document():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 78, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:14:21,413 - logger_ser - ERROR - app.ocr_type_document():77 - Id not found!
+2023-06-30 00:14:21,413 - logger_ser - ERROR - app.ocr_type_document():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 78, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:15:02,432 - logger_ser - ERROR - app.ocr_type_document():87 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 79, in ocr_type_document
+    _img_file = request.files["image"]
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/werkzeug/datastructures.py", line 375, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-06-30 00:15:58,907 - server.logger_ser - ERROR - onnx_model.onnx_detect():63 - cannot identify image file <FileStorage: '' (None)>
+2023-06-30 00:15:58,911 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-06-30 00:16:03,935 - logger_ser - ERROR - app.ocr_type_document():77 - Id not found!
+2023-06-30 00:16:03,935 - logger_ser - ERROR - app.ocr_type_document():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 78, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:16:14,352 - logger_ser - ERROR - app.ocr_type_document():77 - Id not found!
+2023-06-30 00:16:14,352 - logger_ser - ERROR - app.ocr_type_document():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 78, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:16:15,058 - logger_ser - ERROR - app.ocr_type_document():77 - Id not found!
+2023-06-30 00:16:15,058 - logger_ser - ERROR - app.ocr_type_document():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 78, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:16:24,403 - logger_ser - ERROR - app.ocr_type_document():87 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 79, in ocr_type_document
+    _img_file = request.files["image"]
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/werkzeug/datastructures.py", line 375, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-06-30 00:16:30,103 - server.logger_ser - ERROR - onnx_model.onnx_detect():63 - cannot identify image file <FileStorage: '' (None)>
+2023-06-30 00:16:30,112 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-06-30 00:16:59,588 - logger_ser - ERROR - app.ocr_type_document():77 - Id not found!
+2023-06-30 00:16:59,589 - logger_ser - ERROR - app.ocr_type_document():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 78, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:17:00,382 - logger_ser - ERROR - app.ocr_type_document():77 - Id not found!
+2023-06-30 00:17:00,382 - logger_ser - ERROR - app.ocr_type_document():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 78, in ocr_type_document
+    raise Exception
+Exception

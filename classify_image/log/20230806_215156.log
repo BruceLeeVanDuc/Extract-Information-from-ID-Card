@@ -1,0 +1,11 @@
+2023-08-06 21:52:02,002 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-08-06 21:52:02,002 - server.logger_ser - ERROR - app.__handle_request():60 - Can not save image file in request
+Traceback (most recent call last):
+  File "/home/namhai18/study/ExtractID-from-namecard/classify_image/server/app.py", line 56, in __handle_request
+    return True, result["class"], result["score"], "success", 0
+KeyError: 'class'
+2023-08-06 21:52:02,003 - server.logger_ser - ERROR - app.general_document_classification():104 - not enough values to unpack (expected 5, got 4)
+Traceback (most recent call last):
+  File "/home/namhai18/study/ExtractID-from-namecard/classify_image/server/app.py", line 85, in general_document_classification
+    is_success, classification_result,score, message, code = __handle_request(_id, _img_file)
+ValueError: not enough values to unpack (expected 5, got 4)

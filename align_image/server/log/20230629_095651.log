@@ -1,0 +1,24 @@
+2023-06-29 09:56:58,930 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-29 09:56:58,930 - logger_ser - ERROR - app.ocr_type_document():86 - Object of type ndarray is not JSON serializable
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 81, in ocr_type_document
+    return jsonify({"code": code, "message": message, "data": result}), 200
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/flask/json/__init__.py", line 342, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/flask/json/provider.py", line 309, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=mimetype
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/flask/json/provider.py", line 230, in dumps
+    return json.dumps(obj, **kwargs)
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/flask/json/provider.py", line 122, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type ndarray is not JSON serializable

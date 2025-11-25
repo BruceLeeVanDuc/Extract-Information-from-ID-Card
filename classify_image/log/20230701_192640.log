@@ -1,0 +1,3 @@
+2023-07-01 19:26:47,441 - server.logger_ser - ERROR - onnx_predict.onnx_classify():66 - local variable 'image' referenced before assignment
+2023-07-01 19:26:47,444 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None

@@ -1,0 +1,4 @@
+2023-07-13 00:22:34,754 - server.logger_ser - ERROR - onnx_model.onnx_detect():75 - OpenCV(4.6.0) /io/opencv/modules/imgcodecs/src/loadsave.cpp:816: error: (-215:Assertion failed) !buf.empty() in function 'imdecode_'
+
+2023-07-13 00:22:34,763 - logger_ser - ERROR - app.__handle_request():47 - Server false!
+NoneType: None

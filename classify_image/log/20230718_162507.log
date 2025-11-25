@@ -1,0 +1,3 @@
+2023-07-18 16:25:08,928 - server.logger_ser - ERROR - onnx_predict.onnx_classify():76 - '_io.BufferedRandom' object has no attribute 'copy'
+2023-07-18 16:25:08,937 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None

@@ -1,0 +1,7 @@
+2023-07-04 20:31:05,724 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-07-04 20:31:05,738 - logger_ser - ERROR - app.ocr_type_document():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-07-04 20:31:26,353 - logger_ser -  INFO - app.__handle_request():49 - Success!

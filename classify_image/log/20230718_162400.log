@@ -1,0 +1,3 @@
+2023-07-18 16:24:03,073 - server.logger_ser - ERROR - onnx_predict.onnx_classify():76 - a bytes-like object is required, not 'FileStorage'
+2023-07-18 16:24:03,083 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None

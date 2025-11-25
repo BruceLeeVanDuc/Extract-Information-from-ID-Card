@@ -1,0 +1,576 @@
+2023-07-01 19:05:20,344 - server.logger_ser - ERROR - onnx_predict.onnx_classify():66 - [ONNXRuntimeError] : 2 : INVALID_ARGUMENT : Got invalid dimensions for input: input.1 for the following indices
+ index: 2 Got: 512 Expected: 224
+ index: 3 Got: 512 Expected: 224
+ Please fix either the inputs or the model.
+2023-07-01 19:05:20,349 - server.logger_ser - ERROR - app.__handle_request():47 - Server false!
+NoneType: None
+2023-07-01 19:11:18,874 - server.logger_ser - ERROR - onnx_predict.onnx_classify():66 - [ONNXRuntimeError] : 2 : INVALID_ARGUMENT : Got invalid dimensions for input: input.1 for the following indices
+ index: 2 Got: 512 Expected: 224
+ index: 3 Got: 512 Expected: 224
+ Please fix either the inputs or the model.
+2023-07-01 19:11:19,304 - server.logger_ser - ERROR - app.__handle_request():47 - Server false!
+NoneType: None
+2023-07-01 19:12:45,093 - server.logger_ser - ERROR - onnx_predict.onnx_classify():66 - [ONNXRuntimeError] : 2 : INVALID_ARGUMENT : Got invalid dimensions for input: input.1 for the following indices
+ index: 2 Got: 512 Expected: 224
+ index: 3 Got: 512 Expected: 224
+ Please fix either the inputs or the model.
+2023-07-01 19:12:45,101 - server.logger_ser - ERROR - app.__handle_request():47 - Server false!
+NoneType: None
+2023-07-01 19:19:27,945 - server.logger_ser - ERROR - onnx_predict.onnx_classify():66 - [ONNXRuntimeError] : 2 : INVALID_ARGUMENT : Got invalid dimensions for input: input.1 for the following indices
+ index: 2 Got: 512 Expected: 224
+ index: 3 Got: 512 Expected: 224
+ Please fix either the inputs or the model.
+2023-07-01 19:19:28,036 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None
+2023-07-01 19:20:50,747 - server.logger_ser - ERROR - onnx_predict.onnx_classify():66 - [ONNXRuntimeError] : 2 : INVALID_ARGUMENT : Got invalid dimensions for input: input.1 for the following indices
+ index: 2 Got: 512 Expected: 224
+ index: 3 Got: 512 Expected: 224
+ Please fix either the inputs or the model.
+2023-07-01 19:20:50,756 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None
+2023-07-01 19:25:22,669 - server.logger_ser - ERROR - onnx_predict.onnx_classify():66 - [ONNXRuntimeError] : 2 : INVALID_ARGUMENT : Got invalid dimensions for input: input.1 for the following indices
+ index: 2 Got: 512 Expected: 224
+ index: 3 Got: 512 Expected: 224
+ Please fix either the inputs or the model.
+2023-07-01 19:25:23,024 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None
+2023-07-01 19:26:47,441 - server.logger_ser - ERROR - onnx_predict.onnx_classify():66 - local variable 'image' referenced before assignment
+2023-07-01 19:26:47,444 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None
+2023-07-01 19:28:24,012 - server.logger_ser - ERROR - onnx_predict.onnx_classify():66 - [ONNXRuntimeError] : 2 : INVALID_ARGUMENT : Got invalid dimensions for input: input.1 for the following indices
+ index: 2 Got: 214 Expected: 224
+ index: 3 Got: 214 Expected: 224
+ Please fix either the inputs or the model.
+2023-07-01 19:28:24,020 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None
+2023-07-01 19:29:00,395 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-01 19:29:00,395 - server.logger_ser - ERROR - app.__handle_request():61 - Can not save image file in request
+Traceback (most recent call last):
+  File "/home/thanh/workspace/api-server/server/app.py", line 53, in __handle_request
+    img = Image.open(result["img_source"])
+KeyError: 'img_source'
+2023-07-01 19:32:12,699 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-01 19:32:12,739 - server.logger_ser - ERROR - app.__handle_request():61 - Can not save image file in request
+Traceback (most recent call last):
+  File "/home/thanh/workspace/api-server/server/app.py", line 55, in __handle_request
+    is_success, classification_result = classifier.onnx_classify(result["img_source"])
+KeyError: 'img_source'
+2023-07-01 19:33:28,727 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-01 19:33:28,754 - server.logger_ser - ERROR - app.__handle_request():62 - Can not save image file in request
+Traceback (most recent call last):
+  File "/home/thanh/workspace/api-server/server/app.py", line 56, in __handle_request
+    is_success, classification_result = classifier.onnx_classify(result["img_source"])
+KeyError: 'img_source'
+2023-07-01 19:38:33,931 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-01 19:40:11,663 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-01 19:42:25,586 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-01 20:01:46,729 - server.logger_ser - ERROR - onnx_predict.onnx_classify():78 - a bytes-like object is required, not 'Image'
+2023-07-01 20:01:46,779 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None
+2023-07-01 20:04:33,461 - server.logger_ser - ERROR - onnx_predict.onnx_classify():78 - a bytes-like object is required, not 'Image'
+2023-07-01 20:04:33,587 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None
+2023-07-01 20:06:03,532 - server.logger_ser - ERROR - onnx_predict.onnx_classify():78 - a bytes-like object is required, not 'Image'
+2023-07-01 20:06:03,537 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None
+2023-07-01 20:10:39,975 - server.logger_ser - ERROR - onnx_predict.onnx_classify():78 - a bytes-like object is required, not 'Image'
+2023-07-01 20:10:39,976 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None
+2023-07-01 20:28:02,736 - server.logger_ser - ERROR - onnx_predict.onnx_classify():90 - [ONNXRuntimeError] : 2 : INVALID_ARGUMENT : Unexpected input data type. Actual: (tensor(uint8)) , expected: (tensor(float))
+2023-07-01 20:28:02,893 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None
+2023-07-01 20:35:50,873 - server.logger_ser - ERROR - onnx_predict.onnx_classify():86 - [ONNXRuntimeError] : 2 : INVALID_ARGUMENT : Unexpected input data type. Actual: (tensor(uint8)) , expected: (tensor(float))
+2023-07-01 20:35:50,881 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None
+2023-07-01 20:38:24,077 - server.logger_ser - ERROR - onnx_predict.onnx_classify():76 - [ONNXRuntimeError] : 2 : INVALID_ARGUMENT : Unexpected input data type. Actual: (tensor(uint8)) , expected: (tensor(float))
+2023-07-01 20:38:24,536 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None
+2023-07-01 20:40:44,404 - server.logger_ser - ERROR - onnx_predict.onnx_classify():68 - [ONNXRuntimeError] : 2 : INVALID_ARGUMENT : Unexpected input data type. Actual: (tensor(uint8)) , expected: (tensor(float))
+2023-07-01 20:40:44,405 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None
+2023-07-01 20:42:03,400 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-01 20:42:22,915 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-01 20:42:37,713 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-01 20:51:04,602 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-02 15:30:51,218 - server.logger_ser -  INFO - app.__handle_request():52 - Success!
+2023-07-02 15:34:08,880 - server.logger_ser - ERROR - app.ocr_type_document():91 - Id not found!
+2023-07-02 15:34:08,881 - server.logger_ser - ERROR - app.ocr_type_document():104 - 
+Traceback (most recent call last):
+  File "/home/thanh/workspace/api-server/server/app.py", line 92, in ocr_type_document
+    raise Exception
+Exception
+2023-07-02 15:36:01,935 - server.logger_ser - ERROR - app.ocr_type_document():91 - Id not found!
+2023-07-02 15:36:01,935 - server.logger_ser - ERROR - app.ocr_type_document():104 - 
+Traceback (most recent call last):
+  File "/home/thanh/workspace/api-server/server/app.py", line 92, in ocr_type_document
+    raise Exception
+Exception
+2023-07-02 15:40:57,286 - server.logger_ser - ERROR - app.ocr_type_document():104 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/home/thanh/workspace/api-server/server/app.py", line 93, in ocr_type_document
+    _img_file = request.files["image"]
+  File "/home/thanh/.local/lib/python3.10/site-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-07-02 15:41:24,718 - server.logger_ser -  INFO - app.__handle_request():52 - Success!
+2023-07-02 15:42:53,288 - server.logger_ser - ERROR - app.ocr_type_document():104 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/home/thanh/workspace/api-server/server/app.py", line 93, in ocr_type_document
+    _img_file = request.files["image"]
+  File "/home/thanh/.local/lib/python3.10/site-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-07-02 15:45:32,670 - server.logger_ser - ERROR - app.ocr_type_document():104 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/home/thanh/workspace/api-server/server/app.py", line 93, in ocr_type_document
+    _img_file = request.files["image"]
+  File "/home/thanh/.local/lib/python3.10/site-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-07-02 15:46:49,099 - server.logger_ser - ERROR - onnx_predict.onnx_classify():68 - local variable 'image_root' referenced before assignment
+2023-07-02 15:46:49,109 - server.logger_ser - ERROR - app.__handle_request():49 - Server false!
+NoneType: None
+2023-07-02 15:46:49,109 - server.logger_ser - ERROR - app.ocr_type_document():104 - local variable 'text' referenced before assignment
+Traceback (most recent call last):
+  File "/home/thanh/workspace/api-server/server/app.py", line 101, in ocr_type_document
+    return jsonify({"code": code, "message": message, "data": text}), 200
+UnboundLocalError: local variable 'text' referenced before assignment
+2023-07-02 15:49:12,322 - server.logger_ser - ERROR - onnx_predict.onnx_classify():68 - local variable 'image_root' referenced before assignment
+2023-07-02 15:49:12,332 - server.logger_ser - ERROR - app.__handle_request():49 - Server false!
+NoneType: None
+2023-07-02 15:49:12,332 - server.logger_ser - ERROR - app.ocr_type_document():105 - local variable 'img' referenced before assignment
+Traceback (most recent call last):
+  File "/home/thanh/workspace/api-server/server/app.py", line 101, in ocr_type_document
+    text = detector.predict(img)
+UnboundLocalError: local variable 'img' referenced before assignment
+2023-07-02 15:50:04,384 - server.logger_ser - ERROR - onnx_predict.onnx_classify():68 - local variable 'image_root' referenced before assignment
+2023-07-02 15:50:04,443 - server.logger_ser - ERROR - app.__handle_request():49 - Server false!
+NoneType: None
+2023-07-02 15:50:57,992 - server.logger_ser - ERROR - onnx_predict.onnx_classify():68 - local variable 'image_root' referenced before assignment
+2023-07-02 15:50:58,667 - server.logger_ser - ERROR - app.__handle_request():49 - Server false!
+NoneType: None
+2023-07-04 20:42:57,891 - server.logger_ser -  INFO - app.__handle_request():52 - Success!
+2023-07-04 20:43:17,274 - server.logger_ser -  INFO - app.__handle_request():52 - Success!
+2023-07-04 20:43:33,415 - server.logger_ser -  INFO - app.__handle_request():52 - Success!
+2023-07-04 20:44:35,128 - server.logger_ser -  INFO - app.__handle_request():52 - Success!
+2023-07-04 21:00:36,222 - server.logger_ser -  INFO - app.__handle_request():52 - Success!
+2023-07-07 09:37:13,764 - server.logger_ser -  INFO - app.__handle_request():52 - Success!
+2023-07-07 09:37:28,484 - server.logger_ser -  INFO - app.__handle_request():52 - Success!
+2023-07-07 09:53:53,441 - server.logger_ser - ERROR - onnx_predict.onnx_classify():75 - 'numpy.ndarray' object has no attribute 'load'
+2023-07-07 09:53:53,452 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None
+2023-07-07 09:57:59,370 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-07 09:58:19,213 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-07 10:00:26,347 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-07 10:01:29,030 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-07 10:02:42,837 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-07 10:07:41,871 - server.logger_ser - ERROR - onnx_predict.onnx_classify():78 - local variable 'idx' referenced before assignment
+2023-07-07 10:07:42,435 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None
+2023-07-07 10:08:35,608 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-07 10:15:55,147 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-07 10:15:55,178 - server.logger_ser - ERROR - app.__handle_request():62 - Can not save image file in request
+Traceback (most recent call last):
+  File "/home/thanh/workspace/api-server/server/app.py", line 56, in __handle_request
+    is_success, classification_result = classifier.onnx_classify(result["img_path"])
+TypeError: Classifier.onnx_classify() missing 1 required positional argument: 'uuid'
+2023-07-07 10:18:14,063 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-07 10:19:38,182 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 15:56:48,027 - server.logger_ser - ERROR - app.general_document_classification():149 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-classification/server/app.py", line 107, in general_document_classification
+    file_path = request.files["file"]
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/werkzeug/datastructures.py", line 375, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-07-18 15:59:32,184 - server.logger_ser - ERROR - app.general_document_classification():153 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-classification/server/app.py", line 111, in general_document_classification
+    file_path = request.files["file"]
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/werkzeug/datastructures.py", line 375, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-07-18 16:02:12,808 - server.logger_ser - ERROR - onnx_predict.onnx_classify():78 - local variable 'image_root' referenced before assignment
+2023-07-18 16:02:12,828 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None
+2023-07-18 16:05:52,646 - server.logger_ser - ERROR - onnx_predict.onnx_classify():78 - local variable 'image_root' referenced before assignment
+2023-07-18 16:05:53,189 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None
+2023-07-18 16:07:07,600 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:07:07,726 - server.logger_ser - ERROR - onnx_predict.onnx_classify():77 - cannot identify image file <_io.BytesIO object at 0x7fc43d5da0b0>
+2023-07-18 16:08:59,008 - server.logger_ser - ERROR - onnx_predict.onnx_classify():79 - 'tuple' object cannot be interpreted as an integer
+2023-07-18 16:08:59,018 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None
+2023-07-18 16:11:45,274 - server.logger_ser - ERROR - onnx_predict.onnx_classify():79 - 'tuple' object cannot be interpreted as an integer
+2023-07-18 16:11:45,294 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None
+2023-07-18 16:12:53,078 - server.logger_ser - ERROR - onnx_predict.onnx_classify():76 - 'tuple' object cannot be interpreted as an integer
+2023-07-18 16:12:53,084 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None
+2023-07-18 16:13:14,023 - server.logger_ser - ERROR - onnx_predict.onnx_classify():75 - 'tuple' object cannot be interpreted as an integer
+2023-07-18 16:13:14,027 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None
+2023-07-18 16:13:41,417 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:13:41,488 - server.logger_ser - ERROR - onnx_predict.onnx_classify():74 - cannot identify image file <_io.BytesIO object at 0x7fc0b06a1650>
+2023-07-18 16:16:19,327 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:16:19,383 - server.logger_ser - ERROR - onnx_predict.onnx_classify():75 - cannot identify image file <_io.BytesIO object at 0x7f353d79f650>
+2023-07-18 16:17:46,007 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:17:46,034 - server.logger_ser - ERROR - app.__handle_request():62 - Can not save image file in request
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-classification/server/app.py", line 56, in __handle_request
+    is_success, classification_result = classifier.onnx_classify(result["img_path"], _uuid)
+KeyError: 'img_path'
+2023-07-18 16:18:35,989 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:18:36,138 - server.logger_ser - ERROR - onnx_predict.onnx_classify():75 - 'numpy.ndarray' object has no attribute 'read'
+2023-07-18 16:19:47,819 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:19:47,846 - server.logger_ser - ERROR - onnx_predict.onnx_classify():75 - 'numpy.ndarray' object has no attribute 'read'
+2023-07-18 16:23:34,103 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:23:34,133 - server.logger_ser - ERROR - onnx_predict.onnx_classify():76 - 'numpy.ndarray' object has no attribute 'read'
+2023-07-18 16:24:03,073 - server.logger_ser - ERROR - onnx_predict.onnx_classify():76 - a bytes-like object is required, not 'FileStorage'
+2023-07-18 16:24:03,083 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None
+2023-07-18 16:24:23,817 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:24:23,844 - server.logger_ser - ERROR - onnx_predict.onnx_classify():76 - 'numpy.ndarray' object has no attribute 'read'
+2023-07-18 16:25:08,928 - server.logger_ser - ERROR - onnx_predict.onnx_classify():76 - '_io.BufferedRandom' object has no attribute 'copy'
+2023-07-18 16:25:08,937 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None
+2023-07-18 16:26:28,349 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:26:28,377 - server.logger_ser - ERROR - onnx_predict.onnx_classify():75 - 'numpy.ndarray' object has no attribute 'read'
+2023-07-18 16:27:10,766 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:27:10,793 - server.logger_ser - ERROR - onnx_predict.onnx_classify():75 - 'numpy.ndarray' object has no attribute 'read'
+2023-07-18 16:29:32,569 - server.logger_ser - ERROR - onnx_predict.onnx_classify():75 - OpenCV(4.6.0) :-1: error: (-5:Bad argument) in function 'imwrite'
+> Overload resolution failed:
+>  - img is not a numpy array, neither a scalar
+>  - Expected Ptr<cv::UMat> for argument 'img'
+
+2023-07-18 16:29:32,570 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None
+2023-07-18 16:29:47,289 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:29:47,315 - server.logger_ser - ERROR - onnx_predict.onnx_classify():75 - 'numpy.ndarray' object has no attribute 'read'
+2023-07-18 16:30:24,734 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:30:24,761 - server.logger_ser - ERROR - onnx_predict.onnx_classify():76 - 'numpy.ndarray' object has no attribute 'read'
+2023-07-18 16:30:49,965 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:30:50,007 - server.logger_ser - ERROR - onnx_predict.onnx_classify():76 - 'numpy.ndarray' object has no attribute 'read'
+2023-07-18 16:31:31,006 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:31:31,034 - server.logger_ser - ERROR - onnx_predict.onnx_classify():76 - 'numpy.ndarray' object has no attribute 'read'
+2023-07-18 16:32:06,777 - server.logger_ser - ERROR - onnx_predict.onnx_classify():75 - a bytes-like object is required, not 'FileStorage'
+2023-07-18 16:32:06,787 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None
+2023-07-18 16:32:31,370 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:32:31,393 - server.logger_ser - ERROR - onnx_predict.onnx_classify():75 - 'numpy.ndarray' object has no attribute 'read'
+2023-07-18 16:34:16,908 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:34:16,934 - server.logger_ser - ERROR - onnx_predict.onnx_classify():75 - 'numpy.ndarray' object has no attribute 'read'
+2023-07-18 16:36:23,664 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:36:23,692 - server.logger_ser - ERROR - onnx_predict.onnx_classify():75 - read
+2023-07-18 16:42:15,508 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:42:15,550 - server.logger_ser - ERROR - onnx_predict.onnx_classify():75 - read
+2023-07-18 16:45:42,733 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:45:42,733 - server.logger_ser - ERROR - app.__handle_request():61 - Can not save image file in request
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-classification/server/app.py", line 57, in __handle_request
+    return True, (result["type_msg"], result["score"]), "success", 0
+KeyError: 'type_msg'
+2023-07-18 16:46:24,638 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:46:24,638 - server.logger_ser - ERROR - app.__handle_request():61 - Can not save image file in request
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-classification/server/app.py", line 57, in __handle_request
+    return True, result["type_msg"], "success", 0
+KeyError: 'type_msg'
+2023-07-18 16:47:08,804 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:47:08,804 - server.logger_ser - ERROR - app.__handle_request():61 - Can not save image file in request
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-classification/server/app.py", line 57, in __handle_request
+    return True, result["type_msg"], "success", 0
+KeyError: 'type_msg'
+2023-07-18 16:48:05,719 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:50:14,887 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:51:51,374 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:54:43,954 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:55:41,695 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 20:56:19,443 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 20:56:51,129 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 22:43:51,931 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 22:46:52,335 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 22:47:22,793 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 22:48:08,011 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 22:48:49,151 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 22:49:45,121 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 22:51:57,032 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 22:53:45,208 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 22:57:44,319 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 11:23:14,765 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 11:25:43,674 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 11:29:33,111 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 11:30:17,291 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 11:32:24,300 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 11:35:40,986 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 11:36:37,035 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 11:40:41,777 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 11:49:23,354 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 11:50:23,790 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 11:52:55,455 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 11:59:01,571 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 11:59:57,083 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 12:01:16,666 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 12:01:54,602 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 12:05:12,292 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 12:07:27,363 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 12:08:25,287 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 12:09:35,002 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 12:09:40,947 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 14:57:37,047 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 15:01:42,280 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 15:11:04,168 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 15:11:53,063 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 15:13:47,310 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 15:14:23,829 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 15:15:26,395 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 15:18:43,145 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 15:34:01,212 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 15:34:45,618 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 15:52:23,285 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 15:54:28,716 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 15:55:12,018 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 16:15:44,820 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 16:17:06,350 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 16:18:40,785 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 16:20:37,415 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 16:25:17,546 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-19 16:27:50,973 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-20 09:20:18,524 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-20 09:25:52,544 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-20 09:28:34,654 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-20 09:32:23,337 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-20 09:36:10,756 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-20 09:45:34,755 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-20 09:45:42,016 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-25 20:39:26,200 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-25 20:50:10,069 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-25 20:53:15,935 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-27 12:58:23,843 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-27 12:59:47,672 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-27 13:01:28,577 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-27 13:37:18,434 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-27 13:47:05,670 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-27 16:53:38,544 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-27 16:56:17,745 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-27 16:56:25,622 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-27 17:24:34,457 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-27 17:25:50,061 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-27 17:34:51,602 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-08-06 18:57:24,406 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-08-06 21:39:13,487 - server.logger_ser - ERROR - app.general_document_classification():82 - Id not found!
+2023-08-06 21:39:13,487 - server.logger_ser - ERROR - app.general_document_classification():104 - 
+Traceback (most recent call last):
+  File "/home/namhai18/study/ExtractID-from-namecard/classify_image/server/app.py", line 83, in general_document_classification
+    raise Exception
+Exception
+2023-08-06 21:41:14,941 - server.logger_ser - ERROR - app.general_document_classification():82 - Id not found!
+2023-08-06 21:41:14,942 - server.logger_ser - ERROR - app.general_document_classification():104 - 
+Traceback (most recent call last):
+  File "/home/namhai18/study/ExtractID-from-namecard/classify_image/server/app.py", line 83, in general_document_classification
+    raise Exception
+Exception
+2023-08-06 21:42:29,804 - server.logger_ser - ERROR - app.general_document_classification():82 - Id not found!
+2023-08-06 21:42:29,804 - server.logger_ser - ERROR - app.general_document_classification():104 - 
+Traceback (most recent call last):
+  File "/home/namhai18/study/ExtractID-from-namecard/classify_image/server/app.py", line 83, in general_document_classification
+    raise Exception
+Exception
+2023-08-06 21:43:43,415 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-08-06 21:43:43,416 - server.logger_ser - ERROR - app.__handle_request():60 - Can not save image file in request
+Traceback (most recent call last):
+  File "/home/namhai18/study/ExtractID-from-namecard/classify_image/server/app.py", line 56, in __handle_request
+    return True, result["class"], result["score"], "success", 0
+KeyError: 'class'
+2023-08-06 21:43:43,416 - server.logger_ser - ERROR - app.general_document_classification():104 - not enough values to unpack (expected 5, got 4)
+Traceback (most recent call last):
+  File "/home/namhai18/study/ExtractID-from-namecard/classify_image/server/app.py", line 85, in general_document_classification
+    is_success, classification_result,score, message, code = __handle_request(_id, _img_file)
+ValueError: not enough values to unpack (expected 5, got 4)
+2023-08-06 21:45:54,596 - server.logger_ser - ERROR - app.general_document_classification():82 - Id not found!
+2023-08-06 21:45:54,600 - server.logger_ser - ERROR - app.general_document_classification():104 - 
+Traceback (most recent call last):
+  File "/home/namhai18/study/ExtractID-from-namecard/classify_image/server/app.py", line 83, in general_document_classification
+    raise Exception
+Exception
+2023-08-06 21:50:16,495 - server.logger_ser - ERROR - app.general_document_classification():82 - Id not found!
+2023-08-06 21:50:16,496 - server.logger_ser - ERROR - app.general_document_classification():104 - 
+Traceback (most recent call last):
+  File "/home/namhai18/study/ExtractID-from-namecard/classify_image/server/app.py", line 83, in general_document_classification
+    raise Exception
+Exception
+2023-08-06 21:50:47,229 - server.logger_ser - ERROR - app.general_document_classification():82 - Id not found!
+2023-08-06 21:50:47,230 - server.logger_ser - ERROR - app.general_document_classification():104 - 
+Traceback (most recent call last):
+  File "/home/namhai18/study/ExtractID-from-namecard/classify_image/server/app.py", line 83, in general_document_classification
+    raise Exception
+Exception
+2023-08-06 21:52:02,002 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-08-06 21:52:02,002 - server.logger_ser - ERROR - app.__handle_request():60 - Can not save image file in request
+Traceback (most recent call last):
+  File "/home/namhai18/study/ExtractID-from-namecard/classify_image/server/app.py", line 56, in __handle_request
+    return True, result["class"], result["score"], "success", 0
+KeyError: 'class'
+2023-08-06 21:52:02,003 - server.logger_ser - ERROR - app.general_document_classification():104 - not enough values to unpack (expected 5, got 4)
+Traceback (most recent call last):
+  File "/home/namhai18/study/ExtractID-from-namecard/classify_image/server/app.py", line 85, in general_document_classification
+    is_success, classification_result,score, message, code = __handle_request(_id, _img_file)
+ValueError: not enough values to unpack (expected 5, got 4)
+2023-08-06 21:52:39,016 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-08-06 21:52:39,017 - server.logger_ser - ERROR - app.__handle_request():60 - Can not save image file in request
+Traceback (most recent call last):
+  File "/home/namhai18/study/ExtractID-from-namecard/classify_image/server/app.py", line 56, in __handle_request
+    return True, result["class"], result["score"], "success", 0
+KeyError: 'class'
+2023-08-06 21:54:12,616 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-08-06 21:54:12,616 - server.logger_ser - ERROR - app.__handle_request():60 - Can not save image file in request
+Traceback (most recent call last):
+  File "/home/namhai18/study/ExtractID-from-namecard/classify_image/server/app.py", line 56, in __handle_request
+    return True, result["class"], result["score"], "success", 0
+KeyError: 'class'
+2023-08-06 21:55:03,263 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-08-06 21:55:03,263 - server.logger_ser - ERROR - app.__handle_request():60 - Can not save image file in request
+Traceback (most recent call last):
+  File "/home/namhai18/study/ExtractID-from-namecard/classify_image/server/app.py", line 56, in __handle_request
+    return True, result["class"], "success", 0
+KeyError: 'class'
+2023-08-06 21:55:38,875 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-08-06 21:55:38,876 - server.logger_ser - ERROR - app.__handle_request():60 - Can not save image file in request
+Traceback (most recent call last):
+  File "/home/namhai18/study/ExtractID-from-namecard/classify_image/server/app.py", line 56, in __handle_request
+    return True, result["class"], "success", 0
+KeyError: 'class'
+2023-08-06 21:55:56,969 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-08-06 21:55:56,970 - server.logger_ser - ERROR - app.__handle_request():60 - Can not save image file in request
+Traceback (most recent call last):
+  File "/home/namhai18/study/ExtractID-from-namecard/classify_image/server/app.py", line 56, in __handle_request
+    return True, result["class"], "success", 0
+KeyError: 'class'
+2023-08-06 21:56:36,715 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-08-06 21:58:23,270 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-08-06 21:58:37,122 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-08-06 21:59:21,302 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-08-06 21:59:49,038 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-08-06 21:59:55,796 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-08-06 22:00:51,174 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-08-06 22:00:51,174 - server.logger_ser - ERROR - app.general_document_classification():103 - Object of type set is not JSON serializable
+Traceback (most recent call last):
+  File "/home/namhai18/study/ExtractID-from-namecard/classify_image/server/app.py", line 93, in general_document_classification
+    return jsonify(response), 200
+  File "/home/namhai18/anaconda3/envs/extractID/lib/python3.10/site-packages/flask/json/__init__.py", line 342, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/home/namhai18/anaconda3/envs/extractID/lib/python3.10/site-packages/flask/json/provider.py", line 309, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=mimetype
+  File "/home/namhai18/anaconda3/envs/extractID/lib/python3.10/site-packages/flask/json/provider.py", line 230, in dumps
+    return json.dumps(obj, **kwargs)
+  File "/home/namhai18/anaconda3/envs/extractID/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/home/namhai18/anaconda3/envs/extractID/lib/python3.10/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/home/namhai18/anaconda3/envs/extractID/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/namhai18/anaconda3/envs/extractID/lib/python3.10/site-packages/flask/json/provider.py", line 122, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type set is not JSON serializable
+2023-08-06 22:02:40,107 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-08-06 22:14:36,952 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-08-06 22:18:31,257 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-08-06 22:24:45,027 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-08-06 22:25:26,935 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 10:33:44,746 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 10:50:50,105 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 11:03:11,111 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 11:15:05,771 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 11:23:12,027 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 11:29:28,724 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 11:30:25,529 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 11:30:48,943 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 11:32:14,576 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 11:33:26,994 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 11:34:10,520 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 11:41:06,227 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 11:41:58,867 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 20:52:30,719 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 20:53:06,578 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 20:55:23,878 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 20:56:48,970 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 21:01:15,165 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 21:03:33,513 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 21:04:36,434 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 21:15:59,838 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 21:25:09,952 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 21:30:12,951 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 21:36:14,807 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 21:51:00,643 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 21:53:48,401 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 21:55:32,792 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 21:59:03,388 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:01:56,449 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:05:57,843 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:09:28,605 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:11:22,113 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:14:37,588 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:15:38,764 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:16:44,065 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:20:59,783 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:21:46,353 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:22:54,901 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:26:02,109 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:27:20,835 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:28:28,896 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:29:15,860 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:29:41,567 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:35:15,862 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:36:48,353 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:37:49,805 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:40:02,364 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:40:30,931 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:48:09,585 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:49:27,274 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:50:13,749 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:52:05,583 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:52:27,460 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:53:08,745 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 22:54:04,297 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 23:11:27,110 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 23:13:46,471 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 23:16:55,018 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 23:18:57,679 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 23:23:27,688 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 23:25:19,047 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 23:39:12,368 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 23:53:02,269 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 23:53:22,136 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 23:57:16,552 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-16 23:57:29,487 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-17 00:02:24,805 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-17 00:03:15,649 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-17 00:05:38,660 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-17 00:08:16,439 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-17 00:11:19,003 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-17 00:16:17,889 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-17 00:31:59,620 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-17 00:33:10,075 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-17 00:42:05,585 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-17 00:43:34,506 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-17 08:08:43,886 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-17 08:12:24,533 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-17 08:18:19,884 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-17 08:20:08,559 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-17 08:26:21,139 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-17 09:08:06,331 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-17 09:13:52,398 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-17 09:15:09,339 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-17 09:21:14,643 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-17 09:23:18,179 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-18 21:05:34,266 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-18 21:07:21,484 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-18 21:08:05,069 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-18 21:34:54,870 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-18 21:35:58,236 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-18 21:37:34,658 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-18 21:39:50,004 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-18 21:40:28,725 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-19 13:19:49,371 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2025-11-19 13:37:17,428 - server.logger_ser -  INFO - app.__handle_request():51 - Success!

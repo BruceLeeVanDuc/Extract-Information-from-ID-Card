@@ -1,0 +1,6 @@
+2023-08-06 21:55:03,263 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-08-06 21:55:03,263 - server.logger_ser - ERROR - app.__handle_request():60 - Can not save image file in request
+Traceback (most recent call last):
+  File "/home/namhai18/study/ExtractID-from-namecard/classify_image/server/app.py", line 56, in __handle_request
+    return True, result["class"], "success", 0
+KeyError: 'class'

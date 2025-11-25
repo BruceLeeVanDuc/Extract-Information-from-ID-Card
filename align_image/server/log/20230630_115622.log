@@ -1,0 +1,3 @@
+2023-06-30 11:56:25,552 - server.logger_ser - ERROR - onnx_model.onnx_detect():64 - local variable 'img_wrap' referenced before assignment
+2023-06-30 11:56:25,562 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None

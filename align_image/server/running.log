@@ -1,0 +1,904 @@
+2023-06-29 00:18:35,404 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 00:18:35,405 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 00:53:23,122 - logger_ser - ERROR - app.ocr_type_document():86 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 78, in ocr_type_document
+    _img_file = request.files["image"]
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/flask/debughelpers.py", line 83, in __getitem__
+    return super().__getitem__(key)
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/werkzeug/datastructures.py", line 375, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-06-29 00:56:06,415 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 00:56:06,416 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 01:11:01,770 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 01:11:01,810 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 01:11:24,285 - logger_ser - ERROR - app.ocr_type_document():86 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 78, in ocr_type_document
+    _img_file = request.files["image"]
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/flask/debughelpers.py", line 83, in __getitem__
+    return super().__getitem__(key)
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/werkzeug/datastructures.py", line 375, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-06-29 01:12:00,122 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 01:12:00,123 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 01:12:54,555 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 01:12:54,555 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 09:26:02,335 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 09:26:02,423 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 09:52:30,980 - server.logger_ser - ERROR - onnx_model.onnx_detect():57 - Can't convert object to 'str' for 'filename'
+2023-06-29 09:52:31,615 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-06-29 09:56:13,113 - server.logger_ser - ERROR - onnx_model.onnx_detect():62 - OpenCV(4.7.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
+> Overload resolution failed:
+>  - src is not a numpy array, neither a scalar
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2023-06-29 09:56:13,118 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-06-29 09:56:58,930 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-29 09:56:58,930 - logger_ser - ERROR - app.ocr_type_document():86 - Object of type ndarray is not JSON serializable
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 81, in ocr_type_document
+    return jsonify({"code": code, "message": message, "data": result}), 200
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/flask/json/__init__.py", line 342, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/flask/json/provider.py", line 309, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=mimetype
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/flask/json/provider.py", line 230, in dumps
+    return json.dumps(obj, **kwargs)
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/flask/json/provider.py", line 122, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type ndarray is not JSON serializable
+2023-06-29 10:00:33,669 - server.logger_ser - ERROR - onnx_model.onnx_detect():64 - '_io.BytesIO' object has no attribute 'save'
+2023-06-29 10:00:33,851 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-06-29 10:01:42,354 - server.logger_ser - ERROR - onnx_model.onnx_detect():64 - 'numpy.ndarray' object has no attribute 'save'
+2023-06-29 10:01:42,363 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-06-29 10:02:10,121 - server.logger_ser - ERROR - onnx_model.onnx_detect():64 - '_io.BytesIO' object has no attribute 'save'
+2023-06-29 10:02:10,126 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-06-29 10:03:50,093 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-29 21:14:31,015 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 21:14:31,032 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 21:15:20,405 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 21:15:20,405 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 21:15:39,823 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 21:15:39,823 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 21:19:14,443 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 21:19:14,444 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 21:28:03,545 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 21:28:03,546 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 21:28:09,506 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 21:28:09,507 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 21:31:46,618 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 21:31:46,618 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 21:43:19,768 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 21:43:19,769 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 21:43:30,928 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 21:43:30,929 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 21:43:45,360 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 21:43:45,360 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 21:44:53,974 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 21:44:53,974 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 21:44:55,696 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 21:44:55,696 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 21:44:56,565 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 21:44:56,566 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 21:44:56,802 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 21:44:56,803 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 21:44:57,110 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 21:44:57,111 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 21:46:19,792 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 21:46:19,792 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 21:54:41,262 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 21:54:41,262 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 21:55:33,459 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 21:55:33,460 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 22:00:27,891 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 22:00:27,892 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 22:02:43,293 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 22:02:43,293 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 22:06:17,481 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 22:06:17,482 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 22:06:18,025 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 22:06:18,026 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 22:06:19,059 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 22:06:19,060 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 22:06:29,183 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 22:06:29,183 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 22:06:31,050 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 22:06:31,050 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 22:06:31,785 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 22:06:31,786 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 22:06:32,176 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 22:06:32,176 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 22:07:18,474 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 22:07:18,474 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 22:10:53,022 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 22:10:53,022 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 22:13:18,059 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 22:13:18,059 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 22:32:24,694 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 22:32:24,694 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 22:32:28,463 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 22:32:28,463 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 22:32:34,630 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 22:32:34,631 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 22:34:23,452 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 22:34:23,452 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 22:41:05,732 - logger_ser - ERROR - app.ocr_type_document():86 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 78, in ocr_type_document
+    _img_file = request.files["image"]
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/werkzeug/datastructures.py", line 375, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-06-29 22:41:19,654 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 22:41:19,654 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 22:41:53,401 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 22:42:13,632 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 22:42:13,633 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 22:42:38,009 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 22:42:38,010 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 22:48:26,626 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 22:48:26,627 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 22:48:38,096 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 22:48:38,096 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 22:49:00,378 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 22:49:00,378 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 22:49:33,294 - logger_ser - ERROR - app.upload_image():76 - Id not found!
+2023-06-29 22:49:33,295 - logger_ser - ERROR - app.upload_image():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload_image
+    raise Exception
+Exception
+2023-06-29 22:49:50,774 - logger_ser - ERROR - app.upload_image():76 - Id not found!
+2023-06-29 22:49:50,774 - logger_ser - ERROR - app.upload_image():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload_image
+    raise Exception
+Exception
+2023-06-29 23:01:29,883 - logger_ser - ERROR - app.upload_image():76 - Id not found!
+2023-06-29 23:01:29,884 - logger_ser - ERROR - app.upload_image():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload_image
+    raise Exception
+Exception
+2023-06-29 23:01:56,543 - logger_ser - ERROR - app.upload_image():76 - Id not found!
+2023-06-29 23:01:56,543 - logger_ser - ERROR - app.upload_image():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload_image
+    raise Exception
+Exception
+2023-06-29 23:02:41,317 - logger_ser - ERROR - app.upload_image():76 - Id not found!
+2023-06-29 23:02:41,317 - logger_ser - ERROR - app.upload_image():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload_image
+    raise Exception
+Exception
+2023-06-29 23:09:27,785 - logger_ser - ERROR - app.upload_image():76 - Id not found!
+2023-06-29 23:09:27,785 - logger_ser - ERROR - app.upload_image():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload_image
+    raise Exception
+Exception
+2023-06-29 23:09:33,750 - logger_ser - ERROR - app.upload_image():76 - Id not found!
+2023-06-29 23:09:33,750 - logger_ser - ERROR - app.upload_image():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload_image
+    raise Exception
+Exception
+2023-06-29 23:13:24,736 - logger_ser - ERROR - app.upload_image():76 - Id not found!
+2023-06-29 23:13:24,736 - logger_ser - ERROR - app.upload_image():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload_image
+    raise Exception
+Exception
+2023-06-29 23:13:37,342 - logger_ser - ERROR - app.upload_image():76 - Id not found!
+2023-06-29 23:13:37,342 - logger_ser - ERROR - app.upload_image():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload_image
+    raise Exception
+Exception
+2023-06-29 23:14:10,923 - logger_ser - ERROR - app.upload_image():76 - Id not found!
+2023-06-29 23:14:10,924 - logger_ser - ERROR - app.upload_image():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload_image
+    raise Exception
+Exception
+2023-06-29 23:14:18,163 - logger_ser - ERROR - app.upload_image():76 - Id not found!
+2023-06-29 23:14:18,163 - logger_ser - ERROR - app.upload_image():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload_image
+    raise Exception
+Exception
+2023-06-29 23:16:05,787 - logger_ser - ERROR - app.upload_image():76 - Id not found!
+2023-06-29 23:16:05,788 - logger_ser - ERROR - app.upload_image():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload_image
+    raise Exception
+Exception
+2023-06-29 23:16:14,613 - logger_ser - ERROR - app.upload_image():76 - Id not found!
+2023-06-29 23:16:14,614 - logger_ser - ERROR - app.upload_image():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload_image
+    raise Exception
+Exception
+2023-06-29 23:30:27,535 - logger_ser - ERROR - app.upload_image():76 - Id not found!
+2023-06-29 23:30:27,536 - logger_ser - ERROR - app.upload_image():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload_image
+    raise Exception
+Exception
+2023-06-29 23:30:42,259 - logger_ser - ERROR - app.upload_image():76 - Id not found!
+2023-06-29 23:30:42,259 - logger_ser - ERROR - app.upload_image():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload_image
+    raise Exception
+Exception
+2023-06-29 23:32:00,226 - logger_ser - ERROR - app.upload_image():76 - Id not found!
+2023-06-29 23:32:00,226 - logger_ser - ERROR - app.upload_image():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload_image
+    raise Exception
+Exception
+2023-06-29 23:33:13,741 - logger_ser - ERROR - app.upload():76 - Id not found!
+2023-06-29 23:33:13,742 - logger_ser - ERROR - app.upload():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload
+    raise Exception
+Exception
+2023-06-29 23:33:18,857 - logger_ser - ERROR - app.upload():76 - Id not found!
+2023-06-29 23:33:18,858 - logger_ser - ERROR - app.upload():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload
+    raise Exception
+Exception
+2023-06-29 23:34:22,827 - logger_ser - ERROR - app.upload():76 - Id not found!
+2023-06-29 23:34:22,828 - logger_ser - ERROR - app.upload():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload
+    raise Exception
+Exception
+2023-06-29 23:35:45,464 - logger_ser - ERROR - app.upload():76 - Id not found!
+2023-06-29 23:35:45,464 - logger_ser - ERROR - app.upload():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload
+    raise Exception
+Exception
+2023-06-29 23:36:09,846 - logger_ser - ERROR - app.upload():76 - Id not found!
+2023-06-29 23:36:09,847 - logger_ser - ERROR - app.upload():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload
+    raise Exception
+Exception
+2023-06-29 23:45:17,950 - logger_ser - ERROR - app.upload():76 - Id not found!
+2023-06-29 23:45:17,950 - logger_ser - ERROR - app.upload():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload
+    raise Exception
+Exception
+2023-06-29 23:45:21,134 - logger_ser - ERROR - app.upload():76 - Id not found!
+2023-06-29 23:45:21,135 - logger_ser - ERROR - app.upload():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload
+    raise Exception
+Exception
+2023-06-29 23:45:44,342 - logger_ser - ERROR - app.upload():76 - Id not found!
+2023-06-29 23:45:44,343 - logger_ser - ERROR - app.upload():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload
+    raise Exception
+Exception
+2023-06-29 23:45:56,073 - logger_ser - ERROR - app.upload():76 - Id not found!
+2023-06-29 23:45:56,073 - logger_ser - ERROR - app.upload():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload
+    raise Exception
+Exception
+2023-06-29 23:47:39,476 - logger_ser - ERROR - app.upload():76 - Id not found!
+2023-06-29 23:47:39,476 - logger_ser - ERROR - app.upload():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload
+    raise Exception
+Exception
+2023-06-29 23:47:42,077 - logger_ser - ERROR - app.upload():76 - Id not found!
+2023-06-29 23:47:42,077 - logger_ser - ERROR - app.upload():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload
+    raise Exception
+Exception
+2023-06-29 23:48:32,168 - logger_ser - ERROR - app.upload():76 - Id not found!
+2023-06-29 23:48:32,168 - logger_ser - ERROR - app.upload():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload
+    raise Exception
+Exception
+2023-06-29 23:48:55,964 - logger_ser - ERROR - app.upload():76 - Id not found!
+2023-06-29 23:48:55,965 - logger_ser - ERROR - app.upload():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload
+    raise Exception
+Exception
+2023-06-30 00:09:00,363 - logger_ser - ERROR - app.ocr_type_document():77 - Id not found!
+2023-06-30 00:09:00,363 - logger_ser - ERROR - app.ocr_type_document():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 78, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:09:54,547 - logger_ser - ERROR - app.ocr_type_document():77 - Id not found!
+2023-06-30 00:09:54,547 - logger_ser - ERROR - app.ocr_type_document():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 78, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:11:55,397 - logger_ser - ERROR - app.ocr_type_document():87 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 79, in ocr_type_document
+    _img_file = request.files["image"]
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/werkzeug/datastructures.py", line 375, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-06-30 00:12:11,022 - logger_ser - ERROR - app.ocr_type_document():87 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 79, in ocr_type_document
+    _img_file = request.files["image"]
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/werkzeug/datastructures.py", line 375, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-06-30 00:12:51,910 - logger_ser - ERROR - app.ocr_type_document():87 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 79, in ocr_type_document
+    _img_file = request.files["image"]
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/werkzeug/datastructures.py", line 375, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-06-30 00:13:16,462 - logger_ser - ERROR - app.ocr_type_document():87 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 79, in ocr_type_document
+    _img_file = request.files["image"]
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/werkzeug/datastructures.py", line 375, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-06-30 00:13:30,178 - logger_ser - ERROR - app.ocr_type_document():87 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 79, in ocr_type_document
+    _img_file = request.files["image"]
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/werkzeug/datastructures.py", line 375, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-06-30 00:14:05,293 - logger_ser - ERROR - app.ocr_type_document():87 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 79, in ocr_type_document
+    _img_file = request.files["image"]
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/werkzeug/datastructures.py", line 375, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-06-30 00:14:11,453 - logger_ser - ERROR - app.ocr_type_document():77 - Id not found!
+2023-06-30 00:14:11,454 - logger_ser - ERROR - app.ocr_type_document():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 78, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:14:21,413 - logger_ser - ERROR - app.ocr_type_document():77 - Id not found!
+2023-06-30 00:14:21,413 - logger_ser - ERROR - app.ocr_type_document():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 78, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:15:02,432 - logger_ser - ERROR - app.ocr_type_document():87 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 79, in ocr_type_document
+    _img_file = request.files["image"]
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/werkzeug/datastructures.py", line 375, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-06-30 00:15:58,907 - server.logger_ser - ERROR - onnx_model.onnx_detect():63 - cannot identify image file <FileStorage: '' (None)>
+2023-06-30 00:15:58,911 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-06-30 00:16:03,935 - logger_ser - ERROR - app.ocr_type_document():77 - Id not found!
+2023-06-30 00:16:03,935 - logger_ser - ERROR - app.ocr_type_document():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 78, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:16:14,352 - logger_ser - ERROR - app.ocr_type_document():77 - Id not found!
+2023-06-30 00:16:14,352 - logger_ser - ERROR - app.ocr_type_document():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 78, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:16:15,058 - logger_ser - ERROR - app.ocr_type_document():77 - Id not found!
+2023-06-30 00:16:15,058 - logger_ser - ERROR - app.ocr_type_document():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 78, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:16:24,403 - logger_ser - ERROR - app.ocr_type_document():87 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 79, in ocr_type_document
+    _img_file = request.files["image"]
+  File "/home/hai/miniconda3/envs/extractID/lib/python3.7/site-packages/werkzeug/datastructures.py", line 375, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-06-30 00:16:30,103 - server.logger_ser - ERROR - onnx_model.onnx_detect():63 - cannot identify image file <FileStorage: '' (None)>
+2023-06-30 00:16:30,112 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-06-30 00:16:59,588 - logger_ser - ERROR - app.ocr_type_document():77 - Id not found!
+2023-06-30 00:16:59,589 - logger_ser - ERROR - app.ocr_type_document():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 78, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:17:00,382 - logger_ser - ERROR - app.ocr_type_document():77 - Id not found!
+2023-06-30 00:17:00,382 - logger_ser - ERROR - app.ocr_type_document():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 78, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:17:48,554 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-30 00:17:48,554 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:18:15,829 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 00:18:25,783 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-30 00:18:25,783 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:19:35,883 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 00:20:20,626 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 00:23:17,328 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-30 00:23:17,329 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:23:18,219 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-30 00:23:18,220 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:23:24,643 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 00:23:31,896 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-30 00:23:31,896 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:25:02,332 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 00:34:04,568 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-30 00:34:04,569 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:34:12,172 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 00:34:19,317 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-30 00:34:19,317 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:34:40,362 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 00:36:25,706 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-30 00:36:25,706 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:36:32,704 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 00:42:13,073 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-30 00:42:13,073 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:42:17,814 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 00:44:07,835 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 00:44:37,238 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 00:47:58,022 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-30 00:47:58,022 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:48:02,372 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 00:49:22,954 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-30 00:49:22,955 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:49:24,915 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-30 00:49:24,915 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:49:29,680 - server.logger_ser - ERROR - onnx_model.onnx_detect():64 - OpenCV(4.7.0) :-1: error: (-5:Bad argument) in function 'imwrite'
+> Overload resolution failed:
+>  - img is not a numpy array, neither a scalar
+>  - Expected Ptr<cv::UMat> for argument 'img'
+
+2023-06-30 00:49:29,683 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-06-30 00:49:53,962 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-30 00:49:53,963 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:49:57,293 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 00:54:04,844 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 00:54:37,562 - server.logger_ser - ERROR - onnx_model.onnx_detect():64 - 'JPG'
+2023-06-30 00:54:37,569 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-06-30 00:55:16,248 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-30 00:55:16,249 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:55:19,629 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-30 00:55:19,630 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:55:22,671 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 00:55:56,023 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 00:56:04,339 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 00:56:33,082 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 00:57:30,014 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-30 00:57:30,016 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:57:36,756 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-30 00:57:36,756 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:57:46,873 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 10:43:32,966 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 10:44:02,391 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 10:45:47,035 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 10:51:14,881 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 11:04:32,964 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 11:04:32,978 - logger_ser - ERROR - app.__handle_request():53 - Can not save image file in request
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 50, in __handle_request
+    cv2.imwrite('inm.png', result)
+cv2.error: OpenCV(4.7.0) :-1: error: (-5:Bad argument) in function 'imwrite'
+> Overload resolution failed:
+>  - img is not a numpy array, neither a scalar
+>  - Expected Ptr<cv::UMat> for argument 'img'
+
+2023-06-30 11:05:03,114 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 11:06:59,724 - server.logger_ser - ERROR - onnx_model.onnx_detect():64 - 'numpy.ndarray' object has no attribute 'save'
+2023-06-30 11:06:59,729 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-06-30 11:14:35,635 - server.logger_ser - ERROR - onnx_model.onnx_detect():64 - 'numpy.ndarray' object has no attribute 'save'
+2023-06-30 11:14:35,638 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-06-30 11:38:31,360 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 11:41:08,424 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 11:44:22,655 - server.logger_ser - ERROR - onnx_model.onnx_detect():63 - local variable 'img_wrap' referenced before assignment
+2023-06-30 11:44:22,657 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-06-30 11:45:45,225 - server.logger_ser - ERROR - onnx_model.onnx_detect():63 - local variable 'img_wrap' referenced before assignment
+2023-06-30 11:45:45,234 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-06-30 11:45:55,828 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 11:46:54,747 - server.logger_ser - ERROR - onnx_model.onnx_detect():63 - unrecognized image mode
+2023-06-30 11:46:54,759 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-06-30 11:47:18,873 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 11:54:21,819 - server.logger_ser - ERROR - onnx_model.onnx_detect():63 - local variable 'img_wrap' referenced before assignment
+2023-06-30 11:54:21,829 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-06-30 11:56:25,552 - server.logger_ser - ERROR - onnx_model.onnx_detect():64 - local variable 'img_wrap' referenced before assignment
+2023-06-30 11:56:25,562 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-06-30 12:02:21,946 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 12:02:46,673 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 12:03:18,855 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 12:04:38,378 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 13:43:17,691 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 13:48:27,434 - server.logger_ser - ERROR - onnx_model.onnx_detect():64 - unrecognized image mode
+2023-06-30 13:48:27,438 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-06-30 13:48:43,687 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 13:49:05,064 - server.logger_ser - ERROR - onnx_model.onnx_detect():64 - local variable 'img_wrap' referenced before assignment
+2023-06-30 13:49:05,071 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-06-30 13:51:58,037 - server.logger_ser - ERROR - onnx_model.onnx_detect():65 - OpenCV(4.7.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
+> Overload resolution failed:
+>  - src is not a numpy array, neither a scalar
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2023-06-30 13:51:58,062 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-06-30 13:52:09,715 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 13:53:37,468 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 13:53:51,718 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 13:55:45,293 - server.logger_ser - ERROR - onnx_model.onnx_detect():69 - local variable 'img_wrap' referenced before assignment
+2023-06-30 13:55:45,301 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-06-30 13:56:07,454 - server.logger_ser - ERROR - onnx_model.onnx_detect():69 - name 'img_wrap' is not defined
+2023-06-30 13:56:07,459 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-06-30 13:56:27,191 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 13:57:03,403 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-04 20:19:12,649 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-07-04 20:19:12,718 - logger_ser - ERROR - app.ocr_type_document():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-07-04 20:19:45,400 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-04 20:20:03,458 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-04 20:31:05,724 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-07-04 20:31:05,738 - logger_ser - ERROR - app.ocr_type_document():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-07-04 20:31:26,353 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-09 18:50:20,774 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-07-09 18:50:20,774 - logger_ser - ERROR - app.ocr_type_document():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-07-12 01:47:35,102 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-07-12 01:47:35,136 - logger_ser - ERROR - app.ocr_type_document():87 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-07-12 01:50:23,954 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-12 22:44:24,741 - server.logger_ser - ERROR - onnx_model.onnx_detect():64 - cannot identify image file <FileStorage: 'image' (None)>
+2023-07-12 22:44:24,772 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-12 22:44:44,133 - server.logger_ser - ERROR - onnx_model.onnx_detect():64 - cannot identify image file <FileStorage: 'image' (None)>
+2023-07-12 22:44:44,143 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-12 22:55:56,697 - server.logger_ser - ERROR - onnx_model.onnx_detect():64 - a bytes-like object is required, not 'FileStorage'
+2023-07-12 22:55:56,717 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-12 22:55:58,824 - server.logger_ser - ERROR - onnx_model.onnx_detect():64 - a bytes-like object is required, not 'FileStorage'
+2023-07-12 22:55:58,833 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-12 23:12:26,492 - server.logger_ser - ERROR - onnx_model.onnx_detect():64 - a bytes-like object is required, not 'FileStorage'
+2023-07-12 23:12:26,501 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-12 23:16:49,492 - server.logger_ser - ERROR - onnx_model.onnx_detect():64 - cannot identify image file <FileStorage: 'image' (None)>
+2023-07-12 23:16:49,502 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-12 23:18:47,297 - server.logger_ser - ERROR - onnx_model.onnx_detect():64 - frombytes() missing 2 required positional arguments: 'size' and 'data'
+2023-07-12 23:18:47,307 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-12 23:20:03,327 - server.logger_ser - ERROR - onnx_model.onnx_detect():64 - a bytes-like object is required, not 'FileStorage'
+2023-07-12 23:20:03,337 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-12 23:33:35,551 - server.logger_ser - ERROR - onnx_model.onnx_detect():65 - type object '_io.StringIO' has no attribute 'StringIO'
+2023-07-12 23:33:35,561 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None 
+2023-07-12 23:34:18,500 - server.logger_ser - ERROR - onnx_model.onnx_detect():65 - initial_value must be str or None, not FileStorage
+2023-07-12 23:34:18,510 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-12 23:34:55,679 - server.logger_ser - ERROR - onnx_model.onnx_detect():65 - initial_value must be str or None, not FileStorage
+2023-07-12 23:34:55,690 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-12 23:44:56,029 - server.logger_ser - ERROR - onnx_model.onnx_detect():65 - cannot identify image file <FileStorage: 'image' (None)>
+2023-07-12 23:44:56,036 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-12 23:46:21,094 - server.logger_ser - ERROR - onnx_model.onnx_detect():65 - cannot identify image file <FileStorage: 'image' (None)>
+2023-07-12 23:46:21,104 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None

@@ -1,0 +1,2 @@
+2023-07-18 16:36:23,664 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:36:23,692 - server.logger_ser - ERROR - onnx_predict.onnx_classify():75 - read

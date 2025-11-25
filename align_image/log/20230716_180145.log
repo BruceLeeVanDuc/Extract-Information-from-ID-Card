@@ -1,0 +1,1 @@
+2023-07-16 18:01:47,880 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <_io.BytesIO object at 0x7fa3c05f9e30>

@@ -1,0 +1,15 @@
+2023-07-16 17:09:00,485 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-07-16 17:09:00,500 - logger_ser - ERROR - app.ocr_type_document():88 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-07-16 17:09:18,771 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <FileStorage: 'image' (None)>
+2023-07-16 17:09:18,775 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 17:20:14,181 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <FileStorage: 'image' (None)>
+2023-07-16 17:20:14,190 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 17:20:35,841 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <FileStorage: 'image' (None)>
+2023-07-16 17:20:35,850 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None

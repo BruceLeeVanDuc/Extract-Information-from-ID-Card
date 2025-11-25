@@ -1,0 +1,6 @@
+2023-07-01 19:19:27,945 - server.logger_ser - ERROR - onnx_predict.onnx_classify():66 - [ONNXRuntimeError] : 2 : INVALID_ARGUMENT : Got invalid dimensions for input: input.1 for the following indices
+ index: 2 Got: 512 Expected: 224
+ index: 3 Got: 512 Expected: 224
+ Please fix either the inputs or the model.
+2023-07-01 19:19:28,036 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None

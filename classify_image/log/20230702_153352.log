@@ -1,0 +1,6 @@
+2023-07-02 15:34:08,880 - server.logger_ser - ERROR - app.ocr_type_document():91 - Id not found!
+2023-07-02 15:34:08,881 - server.logger_ser - ERROR - app.ocr_type_document():104 - 
+Traceback (most recent call last):
+  File "/home/thanh/workspace/api-server/server/app.py", line 92, in ocr_type_document
+    raise Exception
+Exception

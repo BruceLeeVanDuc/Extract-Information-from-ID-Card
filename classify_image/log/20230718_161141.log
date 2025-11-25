@@ -1,0 +1,3 @@
+2023-07-18 16:11:45,274 - server.logger_ser - ERROR - onnx_predict.onnx_classify():79 - 'tuple' object cannot be interpreted as an integer
+2023-07-18 16:11:45,294 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None

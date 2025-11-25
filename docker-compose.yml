@@ -1,0 +1,25 @@
+version: '3'
+services:
+  gradio-web:
+    image: vn-id-ekyc:latest
+    mem_limit: 4g
+    cpus: 6
+    command: python gra.py
+    stdin_open: true
+    tty: true
+    ports:
+        - "7878:7878"
+  ekyc-corner-align:
+    image: vn-id-ekyc:latest
+    ports:
+      - "5203:5203"     
+    command: sh -c "cd align_image && python server/app.py"
+    stdin_open: true
+    tty: true
+  ekyc-classification:
+    image: vn-id-ekyc:latest
+    ports:
+      - "5204:5201"     
+    command: sh -c "cd classify_image && python server/app.py"
+    stdin_open: true
+    tty: true

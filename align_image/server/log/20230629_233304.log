@@ -1,0 +1,18 @@
+2023-06-29 23:33:13,741 - logger_ser - ERROR - app.upload():76 - Id not found!
+2023-06-29 23:33:13,742 - logger_ser - ERROR - app.upload():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload
+    raise Exception
+Exception
+2023-06-29 23:33:18,857 - logger_ser - ERROR - app.upload():76 - Id not found!
+2023-06-29 23:33:18,858 - logger_ser - ERROR - app.upload():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload
+    raise Exception
+Exception
+2023-06-29 23:34:22,827 - logger_ser - ERROR - app.upload():76 - Id not found!
+2023-06-29 23:34:22,828 - logger_ser - ERROR - app.upload():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in upload
+    raise Exception
+Exception

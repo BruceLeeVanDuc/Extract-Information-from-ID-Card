@@ -1,0 +1,6 @@
+2023-07-01 19:33:28,727 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-01 19:33:28,754 - server.logger_ser - ERROR - app.__handle_request():62 - Can not save image file in request
+Traceback (most recent call last):
+  File "/home/thanh/workspace/api-server/server/app.py", line 56, in __handle_request
+    is_success, classification_result = classifier.onnx_classify(result["img_source"])
+KeyError: 'img_source'

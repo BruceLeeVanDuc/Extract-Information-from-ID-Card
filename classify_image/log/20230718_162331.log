@@ -1,0 +1,2 @@
+2023-07-18 16:23:34,103 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:23:34,133 - server.logger_ser - ERROR - onnx_predict.onnx_classify():76 - 'numpy.ndarray' object has no attribute 'read'

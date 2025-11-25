@@ -1,0 +1,7 @@
+2023-07-18 16:29:32,569 - server.logger_ser - ERROR - onnx_predict.onnx_classify():75 - OpenCV(4.6.0) :-1: error: (-5:Bad argument) in function 'imwrite'
+> Overload resolution failed:
+>  - img is not a numpy array, neither a scalar
+>  - Expected Ptr<cv::UMat> for argument 'img'
+
+2023-07-18 16:29:32,570 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None

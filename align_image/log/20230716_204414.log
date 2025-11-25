@@ -1,0 +1,12 @@
+2023-07-16 20:44:20,345 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <_io.BytesIO object at 0x7f2ce57f9d70>
+2023-07-16 20:44:20,353 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 20:45:29,045 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <_io.BytesIO object at 0x7f2ce579c110>
+2023-07-16 20:45:29,055 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 20:48:23,717 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <_io.BytesIO object at 0x7f2ce297b170>
+2023-07-16 20:48:23,727 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 20:49:44,559 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <_io.BytesIO object at 0x7f2ce297b650>
+2023-07-16 20:49:44,569 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None

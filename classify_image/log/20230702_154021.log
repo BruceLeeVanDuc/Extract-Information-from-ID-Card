@@ -1,0 +1,8 @@
+2023-07-02 15:40:57,286 - server.logger_ser - ERROR - app.ocr_type_document():104 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/home/thanh/workspace/api-server/server/app.py", line 93, in ocr_type_document
+    _img_file = request.files["image"]
+  File "/home/thanh/.local/lib/python3.10/site-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2023-07-02 15:41:24,718 - server.logger_ser -  INFO - app.__handle_request():52 - Success!

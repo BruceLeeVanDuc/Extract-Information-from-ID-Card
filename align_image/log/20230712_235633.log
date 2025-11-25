@@ -1,0 +1,3 @@
+2023-07-12 23:56:39,128 - server.logger_ser - ERROR - onnx_model.onnx_detect():66 - cannot identify image file <FileStorage: 'image' (None)>
+2023-07-12 23:56:39,132 - logger_ser - ERROR - app.__handle_request():47 - Server false!
+NoneType: None

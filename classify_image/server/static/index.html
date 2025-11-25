@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/api/classification/general_document_classification"
+     method="post" enctype="multipart/form-data">
+     <label for="classification">Classification</label>
+       <input type="file" name="file" id="file"> 
+       <input type="submit" value="submit">
+    </form>
+    <form action="/api/classification/general_type_document"
+     method="post" enctype="multipart/form-data">
+     <label for="classification">OCR</label>
+       <input type="file" name="image" id="image"> 
+       <input type="submit" value="submit">
+    </form>
+</body>
+</html>

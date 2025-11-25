@@ -1,0 +1,1 @@
+2023-07-16 18:15:32,556 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - a bytes-like object is required, not '_io.BytesIO'

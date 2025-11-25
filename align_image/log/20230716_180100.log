@@ -1,0 +1,5 @@
+2023-07-16 18:01:03,296 - logger_ser - ERROR - app.ocr_type_document():89 - a bytes-like object is required, not 'FileStorage'
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 79, in ocr_type_document
+    _img_file = BytesIO(_img_file)
+TypeError: a bytes-like object is required, not 'FileStorage'

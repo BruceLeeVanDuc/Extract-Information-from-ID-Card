@@ -1,0 +1,30 @@
+2023-06-29 21:44:53,974 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 21:44:53,974 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 21:44:55,696 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 21:44:55,696 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 21:44:56,565 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 21:44:56,566 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 21:44:56,802 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 21:44:56,803 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-29 21:44:57,110 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-29 21:44:57,111 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception

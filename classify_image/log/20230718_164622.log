@@ -1,0 +1,6 @@
+2023-07-18 16:46:24,638 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:46:24,638 - server.logger_ser - ERROR - app.__handle_request():61 - Can not save image file in request
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-classification/server/app.py", line 57, in __handle_request
+    return True, result["type_msg"], "success", 0
+KeyError: 'type_msg'

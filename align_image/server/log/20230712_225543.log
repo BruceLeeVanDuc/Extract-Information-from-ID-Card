@@ -1,0 +1,2 @@
+2023-07-12 22:55:56,697 - server.logger_ser - ERROR - onnx_model.onnx_detect():64 - a bytes-like object is required, not 'FileStorage'
+2023-07-12 22:55:58,824 - server.logger_ser - ERROR - onnx_model.onnx_detect():64 - a bytes-like object is required, not 'FileStorage'

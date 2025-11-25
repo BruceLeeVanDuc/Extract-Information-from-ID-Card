@@ -1,0 +1,17 @@
+2023-07-18 17:47:22,972 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 17:48:06,582 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 17:49:12,997 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 17:55:37,779 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 17:56:16,878 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 18:01:29,813 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 18:04:09,738 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 18:05:46,040 - server.logger_ser - ERROR - onnx_model.onnx_detect():67 - cannot identify image file <_io.BytesIO object at 0x7fb40b1db5f0>
+2023-07-18 18:05:46,048 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-18 18:06:13,823 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 18:06:59,089 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 18:08:05,210 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 18:09:29,426 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 18:09:57,396 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 18:10:41,793 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 18:14:14,134 - logger_ser -  INFO - app.__handle_request():49 - Success!

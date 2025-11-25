@@ -1,0 +1,6 @@
+2023-07-18 16:17:46,007 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:17:46,034 - server.logger_ser - ERROR - app.__handle_request():62 - Can not save image file in request
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-classification/server/app.py", line 56, in __handle_request
+    is_success, classification_result = classifier.onnx_classify(result["img_path"], _uuid)
+KeyError: 'img_path'

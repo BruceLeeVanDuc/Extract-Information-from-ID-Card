@@ -1,0 +1,6 @@
+2023-07-02 15:50:04,384 - server.logger_ser - ERROR - onnx_predict.onnx_classify():68 - local variable 'image_root' referenced before assignment
+2023-07-02 15:50:04,443 - server.logger_ser - ERROR - app.__handle_request():49 - Server false!
+NoneType: None
+2023-07-02 15:50:57,992 - server.logger_ser - ERROR - onnx_predict.onnx_classify():68 - local variable 'image_root' referenced before assignment
+2023-07-02 15:50:58,667 - server.logger_ser - ERROR - app.__handle_request():49 - Server false!
+NoneType: None

@@ -1,0 +1,395 @@
+2023-07-12 23:54:12,523 - server.logger_ser - ERROR - onnx_model.onnx_detect():66 - cannot identify image file <FileStorage: 'image' (None)>
+2023-07-12 23:54:12,529 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-12 23:54:52,675 - server.logger_ser - ERROR - onnx_model.onnx_detect():66 - cannot identify image file <FileStorage: 'image' (None)>
+2023-07-12 23:54:52,682 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-12 23:56:39,128 - server.logger_ser - ERROR - onnx_model.onnx_detect():66 - cannot identify image file <FileStorage: 'image' (None)>
+2023-07-12 23:56:39,132 - logger_ser - ERROR - app.__handle_request():47 - Server false!
+NoneType: None
+2023-07-12 23:57:04,117 - server.logger_ser - ERROR - onnx_model.onnx_detect():66 - cannot identify image file <FileStorage: 'image' (None)>
+2023-07-12 23:57:04,120 - logger_ser - ERROR - app.__handle_request():49 - Server false!
+NoneType: None
+2023-07-12 23:59:55,869 - server.logger_ser - ERROR - onnx_model.onnx_detect():68 - 'bytes' object has no attribute 'read'
+2023-07-12 23:59:55,879 - logger_ser - ERROR - app.__handle_request():49 - Server false!
+NoneType: None
+2023-07-13 00:00:26,095 - server.logger_ser - ERROR - onnx_model.onnx_detect():69 - 'bytes' object has no attribute 'read'
+2023-07-13 00:00:26,105 - logger_ser - ERROR - app.__handle_request():49 - Server false!
+NoneType: None
+2023-07-13 00:04:10,360 - server.logger_ser - ERROR - onnx_model.onnx_detect():68 - cannot identify image file <FileStorage: 'image' (None)>
+2023-07-13 00:04:10,366 - logger_ser - ERROR - app.__handle_request():47 - Server false!
+NoneType: None
+2023-07-13 00:06:12,346 - server.logger_ser - ERROR - onnx_model.onnx_detect():67 - 'bytes' object has no attribute 'read'
+2023-07-13 00:06:12,356 - logger_ser - ERROR - app.__handle_request():47 - Server false!
+NoneType: None
+2023-07-13 00:06:43,743 - server.logger_ser - ERROR - onnx_model.onnx_detect():68 - 'bytes' object has no attribute 'read'
+2023-07-13 00:06:43,752 - logger_ser - ERROR - app.__handle_request():47 - Server false!
+NoneType: None
+2023-07-13 00:08:28,829 - server.logger_ser - ERROR - onnx_model.onnx_detect():69 - 'bytes' object has no attribute 'read'
+2023-07-13 00:08:28,839 - logger_ser - ERROR - app.__handle_request():47 - Server false!
+NoneType: None
+2023-07-13 00:10:59,948 - server.logger_ser - ERROR - onnx_model.onnx_detect():71 - '_io.BytesIO' object has no attribute 'decode'
+2023-07-13 00:10:59,957 - logger_ser - ERROR - app.__handle_request():47 - Server false!
+NoneType: None
+2023-07-13 00:11:26,126 - server.logger_ser - ERROR - onnx_model.onnx_detect():69 - cannot identify image file <FileStorage: 'image' (None)>
+2023-07-13 00:11:26,130 - logger_ser - ERROR - app.__handle_request():47 - Server false!
+NoneType: None
+2023-07-13 00:13:12,111 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - a bytes-like object is required, not 'FileStorage'
+2023-07-13 00:13:12,122 - logger_ser - ERROR - app.__handle_request():47 - Server false!
+NoneType: None
+2023-07-13 00:16:10,146 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - 'bytes' object has no attribute 'read'
+2023-07-13 00:16:10,156 - logger_ser - ERROR - app.__handle_request():47 - Server false!
+NoneType: None
+2023-07-13 00:17:03,527 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <FileStorage: 'image' (None)>
+2023-07-13 00:17:03,534 - logger_ser - ERROR - app.__handle_request():47 - Server false!
+NoneType: None
+2023-07-13 00:17:49,294 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <FileStorage: 'image' (None)>
+2023-07-13 00:17:49,298 - logger_ser - ERROR - app.__handle_request():47 - Server false!
+NoneType: None
+2023-07-13 00:22:15,071 - server.logger_ser - ERROR - onnx_model.onnx_detect():75 - OpenCV(4.6.0) /io/opencv/modules/imgcodecs/src/loadsave.cpp:816: error: (-215:Assertion failed) !buf.empty() in function 'imdecode_'
+
+2023-07-13 00:22:15,080 - logger_ser - ERROR - app.__handle_request():47 - Server false!
+NoneType: None
+2023-07-13 00:22:34,754 - server.logger_ser - ERROR - onnx_model.onnx_detect():75 - OpenCV(4.6.0) /io/opencv/modules/imgcodecs/src/loadsave.cpp:816: error: (-215:Assertion failed) !buf.empty() in function 'imdecode_'
+
+2023-07-13 00:22:34,763 - logger_ser - ERROR - app.__handle_request():47 - Server false!
+NoneType: None
+2023-07-16 17:09:00,485 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-07-16 17:09:00,500 - logger_ser - ERROR - app.ocr_type_document():88 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-07-16 17:09:18,771 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <FileStorage: 'image' (None)>
+2023-07-16 17:09:18,775 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 17:20:14,181 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <FileStorage: 'image' (None)>
+2023-07-16 17:20:14,190 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 17:20:35,841 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <FileStorage: 'image' (None)>
+2023-07-16 17:20:35,850 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 17:52:12,871 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <FileStorage: 'image' (None)>
+2023-07-16 17:52:12,894 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:01:03,296 - logger_ser - ERROR - app.ocr_type_document():89 - a bytes-like object is required, not 'FileStorage'
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 79, in ocr_type_document
+    _img_file = BytesIO(_img_file)
+TypeError: a bytes-like object is required, not 'FileStorage'
+2023-07-16 18:01:47,880 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <_io.BytesIO object at 0x7fa3c05f9e30>
+2023-07-16 18:01:47,884 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:02:12,884 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - 'bytes' object has no attribute 'seek'
+2023-07-16 18:02:12,894 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:02:29,350 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <_io.BytesIO object at 0x7fb98974fe30>
+2023-07-16 18:02:29,357 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:03:48,132 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <_io.BytesIO object at 0x7fc8307fae30>
+2023-07-16 18:03:48,135 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:04:18,856 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <_io.BytesIO object at 0x7fed2c7b9fb0>
+2023-07-16 18:04:18,863 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:06:00,895 - server.logger_ser - ERROR - onnx_model.onnx_detect():69 - a bytes-like object is required, not '_io.BytesIO'
+2023-07-16 18:06:00,905 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:06:34,898 - server.logger_ser - ERROR - onnx_model.onnx_detect():69 - 'bytes' object has no attribute 'seek'
+2023-07-16 18:06:34,908 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:06:50,910 - server.logger_ser - ERROR - onnx_model.onnx_detect():69 - cannot identify image file <_io.BytesIO object at 0x7fdb60d0fd10>
+2023-07-16 18:06:50,917 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:07:44,984 - server.logger_ser - ERROR - onnx_model.onnx_detect():69 - a bytes-like object is required, not '_io.BytesIO'
+2023-07-16 18:07:44,994 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:08:21,973 - server.logger_ser - ERROR - onnx_model.onnx_detect():69 - a bytes-like object is required, not '_io.BytesIO'
+2023-07-16 18:08:21,983 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:09:03,382 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - a bytes-like object is required, not '_io.BytesIO'
+2023-07-16 18:09:03,392 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:09:54,987 - logger_ser - ERROR - app.ocr_type_document():89 - a bytes-like object is required, not 'FileStorage'
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 79, in ocr_type_document
+    _img_file = BytesIO(_img_file).read()
+TypeError: a bytes-like object is required, not 'FileStorage'
+2023-07-16 18:11:16,637 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - a bytes-like object is required, not '_io.BytesIO'
+2023-07-16 18:11:16,647 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:11:44,728 - server.logger_ser - ERROR - onnx_model.onnx_detect():67 - a bytes-like object is required, not '_io.BytesIO'
+2023-07-16 18:11:44,738 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:12:42,952 - server.logger_ser - ERROR - onnx_model.onnx_detect():68 - a bytes-like object is required, not '_io.BytesIO'
+2023-07-16 18:12:42,962 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:13:06,975 - server.logger_ser - ERROR - onnx_model.onnx_detect():68 - a bytes-like object is required, not '_io.BytesIO'
+2023-07-16 18:13:06,985 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:13:39,462 - server.logger_ser - ERROR - onnx_model.onnx_detect():69 - a bytes-like object is required, not '_io.BytesIO'
+2023-07-16 18:13:39,472 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:13:58,082 - server.logger_ser - ERROR - onnx_model.onnx_detect():69 - a bytes-like object is required, not '_io.BytesIO'
+2023-07-16 18:13:58,092 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:15:32,556 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - a bytes-like object is required, not '_io.BytesIO'
+2023-07-16 18:15:32,566 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:18:52,482 - server.logger_ser - ERROR - onnx_model.onnx_detect():72 - '_io.BytesIO' object has no attribute 'save'
+2023-07-16 18:18:52,492 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:22:37,770 - server.logger_ser - ERROR - onnx_model.onnx_detect():73 - a bytes-like object is required, not '_io.BytesIO'
+2023-07-16 18:22:37,780 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:25:02,102 - logger_ser - ERROR - app.ocr_type_document():89 - 'bytes' object has no attribute 'seek'
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 79, in ocr_type_document
+    _img_file.seek(0)
+AttributeError: 'bytes' object has no attribute 'seek'
+2023-07-16 18:27:21,493 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <_io.BytesIO object at 0x7f4abdaf41d0>
+2023-07-16 18:27:21,501 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:28:47,091 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - formats must be a list or tuple
+2023-07-16 18:28:47,101 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:29:09,824 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - open() got an unexpected keyword argument 'format'
+2023-07-16 18:29:09,834 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:29:39,004 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - open() got an unexpected keyword argument 'format'
+2023-07-16 18:29:39,013 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:31:21,694 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <_io.BytesIO object at 0x7f547a5b9d10>
+2023-07-16 18:31:21,702 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:32:06,664 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <_io.BytesIO object at 0x7fe3de5b9a10>
+2023-07-16 18:32:06,674 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:32:49,285 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <_io.BytesIO object at 0x7f90cf39e1d0>
+2023-07-16 18:32:49,293 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:33:22,824 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <_io.BytesIO object at 0x7f90cf3f9a70>
+2023-07-16 18:33:22,834 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:33:37,112 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <_io.BytesIO object at 0x7f90cf2771d0>
+2023-07-16 18:33:37,122 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 18:34:17,802 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <_io.BytesIO object at 0x7f90cf277530>
+2023-07-16 18:34:17,812 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 20:37:06,848 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <_io.BytesIO object at 0x7faa595f9dd0>
+2023-07-16 20:37:06,856 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 20:44:20,345 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <_io.BytesIO object at 0x7f2ce57f9d70>
+2023-07-16 20:44:20,353 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 20:45:29,045 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <_io.BytesIO object at 0x7f2ce579c110>
+2023-07-16 20:45:29,055 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 20:48:23,717 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <_io.BytesIO object at 0x7f2ce297b170>
+2023-07-16 20:48:23,727 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 20:49:44,559 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <_io.BytesIO object at 0x7f2ce297b650>
+2023-07-16 20:49:44,569 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 20:51:01,109 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - a bytes-like object is required, not 'FileStorage'
+2023-07-16 20:51:01,119 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 20:52:17,899 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - cannot identify image file <_io.BytesIO object at 0x7f5915bb9ad0>
+2023-07-16 20:52:17,906 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 20:53:38,069 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - 'bytes' object has no attribute 'seek'
+2023-07-16 20:53:38,077 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 20:54:03,722 - server.logger_ser - ERROR - onnx_model.onnx_detect():70 - 'int' object has no attribute 'read'
+2023-07-16 20:54:03,732 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 20:55:41,554 - server.logger_ser - ERROR - onnx_model.onnx_detect():71 - cannot identify image file <_io.BytesIO object at 0x7f7adc881a70>
+2023-07-16 20:55:41,562 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-16 20:55:59,418 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-16 20:59:49,349 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-16 21:00:56,624 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-16 21:01:46,631 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-16 21:02:16,928 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-16 21:10:57,204 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-16 21:12:31,867 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-16 21:13:04,955 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-16 21:35:26,523 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 17:47:22,972 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 17:48:06,582 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 17:49:12,997 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 17:55:37,779 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 17:56:16,878 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 18:01:29,813 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 18:04:09,738 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 18:05:46,040 - server.logger_ser - ERROR - onnx_model.onnx_detect():67 - cannot identify image file <_io.BytesIO object at 0x7fb40b1db5f0>
+2023-07-18 18:05:46,048 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None
+2023-07-18 18:06:13,823 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 18:06:59,089 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 18:08:05,210 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 18:09:29,426 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 18:09:57,396 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 18:10:41,793 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 18:14:14,134 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 20:41:44,081 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 20:45:16,415 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 20:46:35,061 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 20:48:47,389 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 20:49:45,897 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 20:51:12,193 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 20:55:16,985 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 20:56:17,237 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 20:56:49,070 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 22:43:50,236 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 22:46:49,243 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 22:47:20,289 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 22:48:05,953 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 22:48:46,381 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 22:49:43,183 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 22:51:54,912 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 22:53:43,363 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-18 22:57:42,614 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 11:23:11,533 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 11:25:40,675 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 11:29:30,205 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 11:30:15,215 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 11:32:20,629 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 11:35:38,030 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 11:36:34,193 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 11:40:39,495 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 11:49:20,676 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 11:50:20,602 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 11:52:52,909 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 11:58:58,060 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 11:59:54,609 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 12:01:14,265 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 12:01:51,231 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 12:05:09,394 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 12:07:24,519 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 12:08:22,649 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 12:09:31,616 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 12:09:38,293 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 14:57:33,680 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 15:01:37,406 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 15:11:01,464 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 15:11:52,920 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 15:13:43,747 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 15:14:23,738 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 15:15:24,534 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 15:18:42,341 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 15:33:58,173 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 15:34:44,670 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 15:52:17,153 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 15:54:26,044 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 15:55:08,882 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 16:15:41,635 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 16:17:05,039 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 16:18:39,303 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 16:20:36,325 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 16:25:11,154 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-19 16:27:48,242 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-20 09:20:13,074 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-20 09:25:48,570 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-20 09:28:33,769 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-20 09:32:21,740 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-20 09:36:09,109 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-20 09:45:33,803 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-20 09:45:40,798 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-25 20:39:24,997 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-25 20:50:09,597 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-07-25 20:53:15,406 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-08-06 18:57:24,164 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-08-06 22:16:13,316 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-08-06 22:18:30,986 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-08-06 22:24:29,281 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-08-06 22:25:26,726 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 10:33:41,915 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 10:50:47,407 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 11:03:08,118 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 11:09:46,520 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 11:11:47,576 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 11:15:02,533 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 11:23:09,523 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 11:29:25,924 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 11:30:23,093 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 11:30:45,998 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 11:32:11,756 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 11:33:24,510 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 11:34:07,215 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 11:40:59,066 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 11:41:55,938 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 20:52:27,385 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 20:53:00,359 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 20:55:18,888 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 20:56:43,951 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 21:01:11,370 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 21:03:24,077 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 21:04:26,300 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 21:15:50,115 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 21:24:58,939 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 21:29:56,157 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 21:36:05,683 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 21:50:57,291 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 21:53:43,555 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 21:55:28,012 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 21:58:58,531 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:01:51,633 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:05:53,089 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:09:23,817 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:11:17,272 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:14:32,825 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:15:36,008 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:16:41,144 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:20:55,029 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:21:43,474 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:22:52,203 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:25:57,372 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:27:18,117 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:28:26,003 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:29:13,605 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:29:36,761 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:35:12,434 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:36:45,603 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:37:46,887 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:39:59,545 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:40:26,178 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:48:06,146 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:49:24,788 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:50:09,853 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:52:03,438 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:52:21,716 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:53:03,474 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 22:54:01,324 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 23:11:23,860 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 23:13:40,963 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 23:16:49,548 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 23:18:52,090 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 23:23:21,428 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 23:25:16,084 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 23:39:06,253 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 23:52:56,310 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 23:53:19,825 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 23:57:10,840 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-16 23:57:27,360 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-17 00:02:19,616 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-17 00:03:12,627 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-17 00:05:35,079 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-17 00:31:56,714 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-17 00:33:05,314 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-17 08:08:41,493 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-17 08:12:21,539 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-17 08:18:16,577 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-17 08:20:06,048 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-17 08:26:17,841 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-18 21:05:31,217 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-18 21:07:18,583 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-18 21:08:00,186 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-18 21:34:51,979 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-18 21:35:55,010 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-18 21:37:30,035 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-18 21:39:47,791 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-18 21:40:25,946 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-19 13:19:45,564 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2025-11-19 13:37:15,013 - logger_ser -  INFO - app.__handle_request():49 - Success!

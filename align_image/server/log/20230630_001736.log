@@ -1,0 +1,35 @@
+2023-06-30 00:17:48,554 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-30 00:17:48,554 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:18:15,829 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 00:18:25,783 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-30 00:18:25,783 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:19:35,883 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 00:20:20,626 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 00:23:17,328 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-30 00:23:17,329 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:23:18,219 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-30 00:23:18,220 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:23:24,643 - logger_ser -  INFO - app.__handle_request():49 - Success!
+2023-06-30 00:23:31,896 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-30 00:23:31,896 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:25:02,332 - logger_ser -  INFO - app.__handle_request():49 - Success!

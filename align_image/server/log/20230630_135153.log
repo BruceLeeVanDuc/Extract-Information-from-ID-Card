@@ -1,0 +1,5 @@
+2023-06-30 13:51:58,037 - server.logger_ser - ERROR - onnx_model.onnx_detect():65 - OpenCV(4.7.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
+> Overload resolution failed:
+>  - src is not a numpy array, neither a scalar
+>  - Expected Ptr<cv::UMat> for argument 'src'
+

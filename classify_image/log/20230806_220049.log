@@ -1,0 +1,20 @@
+2023-08-06 22:00:51,174 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-08-06 22:00:51,174 - server.logger_ser - ERROR - app.general_document_classification():103 - Object of type set is not JSON serializable
+Traceback (most recent call last):
+  File "/home/namhai18/study/ExtractID-from-namecard/classify_image/server/app.py", line 93, in general_document_classification
+    return jsonify(response), 200
+  File "/home/namhai18/anaconda3/envs/extractID/lib/python3.10/site-packages/flask/json/__init__.py", line 342, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/home/namhai18/anaconda3/envs/extractID/lib/python3.10/site-packages/flask/json/provider.py", line 309, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=mimetype
+  File "/home/namhai18/anaconda3/envs/extractID/lib/python3.10/site-packages/flask/json/provider.py", line 230, in dumps
+    return json.dumps(obj, **kwargs)
+  File "/home/namhai18/anaconda3/envs/extractID/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/home/namhai18/anaconda3/envs/extractID/lib/python3.10/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/home/namhai18/anaconda3/envs/extractID/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/namhai18/anaconda3/envs/extractID/lib/python3.10/site-packages/flask/json/provider.py", line 122, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type set is not JSON serializable

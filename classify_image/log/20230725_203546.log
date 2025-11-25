@@ -1,0 +1,3 @@
+2023-07-25 20:39:26,200 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-25 20:50:10,069 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-25 20:53:15,935 - server.logger_ser -  INFO - app.__handle_request():51 - Success!

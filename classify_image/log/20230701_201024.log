@@ -1,0 +1,3 @@
+2023-07-01 20:10:39,975 - server.logger_ser - ERROR - onnx_predict.onnx_classify():78 - a bytes-like object is required, not 'Image'
+2023-07-01 20:10:39,976 - server.logger_ser - ERROR - app.__handle_request():48 - Server false!
+NoneType: None

@@ -1,0 +1,8 @@
+2023-07-02 15:49:12,322 - server.logger_ser - ERROR - onnx_predict.onnx_classify():68 - local variable 'image_root' referenced before assignment
+2023-07-02 15:49:12,332 - server.logger_ser - ERROR - app.__handle_request():49 - Server false!
+NoneType: None
+2023-07-02 15:49:12,332 - server.logger_ser - ERROR - app.ocr_type_document():105 - local variable 'img' referenced before assignment
+Traceback (most recent call last):
+  File "/home/thanh/workspace/api-server/server/app.py", line 101, in ocr_type_document
+    text = detector.predict(img)
+UnboundLocalError: local variable 'img' referenced before assignment

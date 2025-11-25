@@ -1,0 +1,19 @@
+2023-06-30 00:49:22,954 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-30 00:49:22,955 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:49:24,915 - logger_ser - ERROR - app.ocr_type_document():76 - Id not found!
+2023-06-30 00:49:24,915 - logger_ser - ERROR - app.ocr_type_document():86 - 
+Traceback (most recent call last):
+  File "/media/HDD1/hai/api-server-template/server/app.py", line 77, in ocr_type_document
+    raise Exception
+Exception
+2023-06-30 00:49:29,680 - server.logger_ser - ERROR - onnx_model.onnx_detect():64 - OpenCV(4.7.0) :-1: error: (-5:Bad argument) in function 'imwrite'
+> Overload resolution failed:
+>  - img is not a numpy array, neither a scalar
+>  - Expected Ptr<cv::UMat> for argument 'img'
+
+2023-06-30 00:49:29,683 - logger_ser - ERROR - app.__handle_request():46 - Server false!
+NoneType: None

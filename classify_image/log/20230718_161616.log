@@ -1,0 +1,2 @@
+2023-07-18 16:16:19,327 - server.logger_ser -  INFO - app.__handle_request():51 - Success!
+2023-07-18 16:16:19,383 - server.logger_ser - ERROR - onnx_predict.onnx_classify():75 - cannot identify image file <_io.BytesIO object at 0x7f353d79f650>
